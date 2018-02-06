@@ -10,17 +10,15 @@ import keras
 # and window-size into a set of input/output pairs for use with our RNN model
 def window_transform_series(series, window_size):
     
-    no_of_rows = len(series) -1
+    no_of_rows = len(series) - window_size
     # containers for input/output pairs    
     X = np.empty((no_of_rows, window_size))
     y = np.empty((no_of_rows, 1))
-
+    
     for i in range(len(series)):
-
         x_temp = series[i:i + window_size]
-        print(x_temp)
         y_temp = series[i + window_size: (i + window_size +1)]
-        print(y_temp)
+      
         if x_temp.shape[0] == window_size:
             X[i:i+1] = x_temp
 
