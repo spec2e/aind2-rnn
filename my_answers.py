@@ -47,6 +47,13 @@ def build_part1_RNN(window_size):
 def cleaned_text(text):
     punctuation = ['!', ',', '.', ':', ';', '?']
 
+    text = list(text)
+    for i, char in enumerate(text):
+        if not char in punctuation and not char.isalpha() and not char.isdigit() and not char.isspace():
+            text[i] = ' '
+
+    text = ''.join(text)
+    
     return text
 
 ### TODO: fill out the function below that transforms the input text and window-size into a set of input/output pairs for use with our RNN model
