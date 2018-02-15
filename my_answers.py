@@ -46,30 +46,31 @@ def build_part1_RNN(window_size):
 def cleaned_text(text):
     punctuation = ['!', ',', '.', ':', ';', '?']
 
+    def is_ascii_letter(ch):
+        ascii_value = ord(ch)
+        return ascii_value > 96 and ascii_value < 123
+    
     text = list(text)
     for i, char in enumerate(text):
-        if not char in punctuation and not char.isalpha() and not char.isdigit() and not char.isspace():
+        if not char in punctuation and not is_ascii_letter(char):
             text[i] = ' '
 
     text = ''.join(text)
     
     return text
 
-### TODO: fill out the function below that transforms the input text and window-size into a set of input/output pairs for use with our RNN model
-def window_transform_text(text, window_size, step_size):
+def window_transform_text(text,window_size,step_size):
     # containers for input/output pairs
     inputs = []
     outputs = []
     
-    for i in range(0, len(text), step_size):
-        inputs.append(text[i:i + window_size])
-        
-        if i + window_size < len(text):
-            outputs.append(text[i + window_size: (i + window_size + 1)])
-        else:
-            outputs.append(' ')
-
+    max_range = len(text) - window_size
+    for i in range(0, max_range, step_size):
+        inputs.append(text[i:i+window_size])
+        outputs.append(text[i+window_size])
+    
     return inputs,outputs
+
 
 # TODO build the required RNN model: 
 # a single LSTM hidden layer with softmax activation, categorical_crossentropy loss 
