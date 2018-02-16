@@ -1,249 +1,450 @@
 [TerminalIPythonApp] WARNING | Subcommand `ipython notebook` is deprecated and will be removed in future versions.
 [TerminalIPythonApp] WARNING | You likely want to use `jupyter notebook` in the future
-[I 20:40:41.010 NotebookApp] Writing notebook server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/notebook_cookie_secret
-[W 20:40:41.027 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
-[I 20:40:41.034 NotebookApp] Serving notebooks from local directory: /mnt
-[I 20:40:41.034 NotebookApp] 0 active kernels
-[I 20:40:41.034 NotebookApp] The Jupyter Notebook is running at:
-[I 20:40:41.034 NotebookApp] http://172.17.0.2:8888/
-[I 20:40:41.034 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[I 20:40:41.974 NotebookApp] 302 GET / (10.249.32.50) 0.63ms
-[I 20:40:42.428 NotebookApp] 302 GET / (10.249.32.38) 0.40ms
-[I 20:40:42.433 NotebookApp] 302 GET / (10.249.32.38) 0.31ms
-[I 20:40:51.454 NotebookApp] 302 GET / (10.249.32.38) 0.50ms
-[I 20:40:53.635 NotebookApp] 302 GET / (10.249.32.38) 0.74ms
-[I 20:40:53.641 NotebookApp] 302 GET / (10.249.32.38) 0.36ms
-[I 20:40:53.723 NotebookApp] 302 GET / (10.249.32.38) 0.44ms
-[I 20:40:53.977 NotebookApp] 302 GET / (10.249.32.50) 0.33ms
-[I 20:40:54.038 NotebookApp] 302 GET / (10.249.32.50) 0.32ms
-[I 20:40:54.164 NotebookApp] 302 GET / (10.249.32.50) 0.40ms
-[I 20:41:00.690 NotebookApp] Writing notebook-signing key to /home/ubuntu/.local/share/jupyter/notebook_secret
-[W 20:41:00.692 NotebookApp] Notebook RNN_project.ipynb is not trusted
-[I 20:41:02.738 NotebookApp] Kernel started: 6ddf9d91-f100-460a-9652-09314de7c110
-[I 20:41:02.742 NotebookApp] 302 GET /notebooks/images/timeseries_windowing_training.gif (10.249.32.38) 0.76ms
-[I 20:41:02.745 NotebookApp] 302 GET /notebooks/images/text_windowing_training.gif (10.249.32.50) 0.69ms
-[I 20:41:03.300 NotebookApp] Adapting to protocol v5.1 for kernel 6ddf9d91-f100-460a-9652-09314de7c110
-[I 20:41:05.380 NotebookApp] 302 GET / (10.249.32.50) 0.52ms
-[I 20:41:19.029 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
-[I 20:41:25.870 NotebookApp] Saving file at /RNN_project.ipynb
-[W 20:41:25.871 NotebookApp] Notebook RNN_project.ipynb is not trusted
+[I 21:17:21.363 NotebookApp] Writing notebook server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 21:17:21.412 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 21:17:21.424 NotebookApp] Serving notebooks from local directory: /mnt
+[I 21:17:21.424 NotebookApp] 0 active kernels
+[I 21:17:21.424 NotebookApp] The Jupyter Notebook is running at:
+[I 21:17:21.424 NotebookApp] http://172.17.0.2:8888/
+[I 21:17:21.424 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 21:17:22.120 NotebookApp] 302 GET / (10.249.32.38) 0.51ms
+[I 21:17:22.796 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
+[I 21:17:22.801 NotebookApp] 302 GET / (10.249.32.38) 0.31ms
+[I 21:17:31.739 NotebookApp] 302 GET / (10.249.32.38) 0.38ms
+[I 21:17:34.519 NotebookApp] 302 GET / (10.249.32.38) 0.38ms
+[I 21:17:34.524 NotebookApp] 302 GET / (10.249.32.38) 0.31ms
+[I 21:17:34.604 NotebookApp] 302 GET / (10.249.32.38) 0.33ms
+[I 21:17:34.955 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 21:17:43.662 NotebookApp] Writing notebook-signing key to /home/ubuntu/.local/share/jupyter/notebook_secret
+[W 21:17:43.664 NotebookApp] Notebook RNN_project.ipynb is not trusted
+[I 21:17:45.609 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 21:17:45.642 NotebookApp] Kernel started: f568c6ee-af46-4d01-a2c5-b60e647089fa
+[I 21:17:45.645 NotebookApp] 302 GET /notebooks/images/timeseries_windowing_training.gif (10.249.32.50) 0.89ms
+[I 21:17:45.700 NotebookApp] 302 GET / (10.249.32.38) 0.30ms
+[I 21:17:45.706 NotebookApp] 302 GET /notebooks/images/text_windowing_training.gif (10.249.32.38) 0.73ms
+[I 21:17:46.270 NotebookApp] Adapting to protocol v5.1 for kernel f568c6ee-af46-4d01-a2c5-b60e647089fa
+[I 21:18:01.753 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
 W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
 W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
 W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
 W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
 W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
 W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
-[I 20:43:03.172 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
-[I 20:43:03.472 NotebookApp] Saving file at /RNN_project.ipynb
-[I 20:45:03.029 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
-[I 20:45:03.317 NotebookApp] Saving file at /RNN_project.ipynb
-[I 20:47:03.255 NotebookApp] 302 GET / (10.249.32.50) 0.59ms
-[I 20:47:03.503 NotebookApp] Saving file at /RNN_project.ipynb
-[I 20:49:03.348 NotebookApp] 302 GET / (10.249.32.38) 0.63ms
-[I 20:49:03.706 NotebookApp] Saving file at /RNN_project.ipynb
-[I 20:51:03.076 NotebookApp] 302 GET / (10.249.32.38) 0.59ms
-[I 20:51:03.435 NotebookApp] Saving file at /RNN_project.ipynb
-[I 20:53:03.150 NotebookApp] 302 GET / (10.249.32.38) 0.57ms
-[I 20:53:03.494 NotebookApp] Saving file at /RNN_project.ipynb
-[I 20:55:03.120 NotebookApp] 302 GET / (10.249.32.38) 0.61ms
-[I 20:55:03.467 NotebookApp] Saving file at /RNN_project.ipynb
-[I 20:57:03.189 NotebookApp] 302 GET / (10.249.32.50) 0.54ms
-[I 20:57:03.548 NotebookApp] Saving file at /RNN_project.ipynb
-[I 20:59:03.108 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
-[I 20:59:03.397 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:01:03.765 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
-[I 21:01:04.123 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:03:03.147 NotebookApp] 302 GET / (10.249.32.38) 0.55ms
-[I 21:03:03.498 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:05:03.184 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
-[I 21:05:03.511 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:07:03.127 NotebookApp] 302 GET / (10.249.32.38) 0.50ms
-[I 21:07:03.484 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:09:03.172 NotebookApp] 302 GET / (10.249.32.50) 0.54ms
-[I 21:09:03.465 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:11:03.293 NotebookApp] 302 GET / (10.249.32.38) 0.54ms
-[I 21:11:03.575 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:13:03.181 NotebookApp] 302 GET / (10.249.32.50) 0.52ms
-[I 21:13:03.462 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:15:03.163 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
-[I 21:15:03.452 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:17:03.398 NotebookApp] 302 GET / (10.249.32.50) 0.54ms
-[I 21:17:03.680 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:19:03.185 NotebookApp] 302 GET / (10.249.32.50) 0.58ms
-[I 21:19:03.464 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:21:03.187 NotebookApp] 302 GET / (10.249.32.50) 0.68ms
-[I 21:21:03.514 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:23:03.234 NotebookApp] 302 GET / (10.249.32.50) 0.40ms
-[I 21:23:03.488 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:25:03.446 NotebookApp] 302 GET / (10.249.32.50) 0.45ms
-[I 21:25:03.791 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:27:03.327 NotebookApp] 302 GET / (10.249.32.50) 0.78ms
-[I 21:27:03.671 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:29:03.423 NotebookApp] 302 GET / (10.249.32.38) 0.41ms
-[I 21:29:03.752 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:31:03.242 NotebookApp] 302 GET / (10.249.32.38) 0.61ms
-[I 21:31:03.532 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:33:03.250 NotebookApp] 302 GET / (10.249.32.38) 0.35ms
-[I 21:33:03.548 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:35:03.275 NotebookApp] 302 GET / (10.249.32.50) 0.64ms
-[I 21:35:03.539 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:37:03.313 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
-[I 21:37:03.662 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:39:03.488 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
-[I 21:39:03.829 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:41:03.410 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
-[I 21:41:03.720 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:43:03.294 NotebookApp] 302 GET / (10.249.32.38) 0.59ms
-[I 21:43:03.582 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:45:03.284 NotebookApp] 302 GET / (10.249.32.38) 0.57ms
-[I 21:45:03.610 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:47:03.368 NotebookApp] 302 GET / (10.249.32.50) 0.58ms
-[I 21:47:03.619 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:49:03.333 NotebookApp] 302 GET / (10.249.32.50) 0.60ms
-[I 21:49:03.692 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:51:03.305 NotebookApp] 302 GET / (10.249.32.38) 0.72ms
-[I 21:51:03.664 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:53:03.387 NotebookApp] 302 GET / (10.249.32.50) 0.51ms
-[I 21:53:03.744 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:55:03.301 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
-[I 21:55:03.577 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:57:03.433 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
-[I 21:57:03.783 NotebookApp] Saving file at /RNN_project.ipynb
-[I 21:59:03.447 NotebookApp] 302 GET / (10.249.32.50) 0.54ms
-[I 21:59:03.701 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:01:03.375 NotebookApp] 302 GET / (10.249.32.38) 0.43ms
-[I 22:01:03.733 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:03:03.417 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
-[I 22:03:03.759 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:05:03.499 NotebookApp] 302 GET / (10.249.32.50) 0.41ms
-[I 22:05:03.844 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:07:03.398 NotebookApp] 302 GET / (10.249.32.38) 0.57ms
-[I 22:07:03.676 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:09:03.373 NotebookApp] 302 GET / (10.249.32.38) 0.55ms
-[I 22:09:03.715 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:11:03.534 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
-[I 22:11:03.859 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:13:03.446 NotebookApp] 302 GET / (10.249.32.50) 0.54ms
-[I 22:13:03.798 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:15:03.458 NotebookApp] 302 GET / (10.249.32.38) 0.59ms
-[I 22:15:03.804 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:17:03.461 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
-[I 22:17:03.747 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:19:03.438 NotebookApp] 302 GET / (10.249.32.50) 0.55ms
-[I 22:19:03.782 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:21:03.524 NotebookApp] 302 GET / (10.249.32.50) 0.60ms
-[I 22:21:03.871 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:23:03.504 NotebookApp] 302 GET / (10.249.32.38) 0.44ms
-[I 22:23:03.866 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:25:03.589 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
-[I 22:25:03.940 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:27:03.498 NotebookApp] 302 GET / (10.249.32.50) 0.55ms
-[I 22:27:03.774 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:29:03.542 NotebookApp] 302 GET / (10.249.32.50) 0.55ms
-[I 22:29:03.901 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:31:03.468 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
-[I 22:31:03.829 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:33:03.939 NotebookApp] 302 GET / (10.249.32.38) 0.61ms
-[I 22:33:04.307 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:35:03.566 NotebookApp] 302 GET / (10.249.32.38) 0.38ms
-[I 22:35:03.924 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:37:03.873 NotebookApp] 302 GET / (10.249.32.50) 0.57ms
-[I 22:37:04.162 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:39:03.610 NotebookApp] 302 GET / (10.249.32.50) 0.53ms
-[I 22:39:03.968 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:41:03.581 NotebookApp] 302 GET / (10.249.32.50) 0.66ms
-[I 22:41:03.904 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:43:03.577 NotebookApp] 302 GET / (10.249.32.38) 0.55ms
-[I 22:43:03.902 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:45:03.572 NotebookApp] 302 GET / (10.249.32.38) 0.40ms
-[I 22:45:03.922 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:47:03.643 NotebookApp] 302 GET / (10.249.32.38) 0.54ms
-[I 22:47:03.999 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:49:03.659 NotebookApp] 302 GET / (10.249.32.38) 0.60ms
-[I 22:49:04.021 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:51:03.630 NotebookApp] 302 GET / (10.249.32.38) 0.48ms
-[I 22:51:03.908 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:53:03.622 NotebookApp] 302 GET / (10.249.32.50) 0.62ms
-[I 22:53:03.976 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:55:03.715 NotebookApp] 302 GET / (10.249.32.50) 0.55ms
-[I 22:55:04.075 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:57:03.682 NotebookApp] 302 GET / (10.249.32.38) 0.61ms
-[I 22:57:04.007 NotebookApp] Saving file at /RNN_project.ipynb
-[I 22:59:03.786 NotebookApp] 302 GET / (10.249.32.38) 0.54ms
-[I 22:59:04.038 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:01:03.649 NotebookApp] 302 GET / (10.249.32.38) 0.54ms
-[I 23:01:04.009 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:03:03.646 NotebookApp] 302 GET / (10.249.32.50) 0.61ms
-[I 23:03:03.902 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:05:03.725 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
-[I 23:05:03.982 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:07:03.653 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
-[I 23:07:03.904 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:09:03.639 NotebookApp] 302 GET / (10.249.32.38) 0.69ms
-[I 23:09:03.918 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:11:03.929 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
-[I 23:11:04.176 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:13:03.655 NotebookApp] 302 GET / (10.249.32.38) 0.57ms
-[I 23:13:03.909 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:15:03.720 NotebookApp] 302 GET / (10.249.32.38) 0.55ms
-[I 23:15:03.941 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:17:03.784 NotebookApp] 302 GET / (10.249.32.50) 0.57ms
-[I 23:17:04.028 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:19:03.904 NotebookApp] 302 GET / (10.249.32.50) 0.40ms
-[I 23:19:04.113 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:21:03.870 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
-[I 23:21:04.123 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:23:03.756 NotebookApp] 302 GET / (10.249.32.50) 0.41ms
-[I 23:23:04.007 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:25:03.727 NotebookApp] 302 GET / (10.249.32.38) 0.58ms
-[I 23:25:03.948 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:27:03.736 NotebookApp] 302 GET / (10.249.32.38) 0.57ms
-[I 23:27:03.990 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:29:03.764 NotebookApp] 302 GET / (10.249.32.50) 0.42ms
-[I 23:29:04.016 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:31:03.740 NotebookApp] 302 GET / (10.249.32.50) 0.63ms
-[I 23:31:03.951 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:33:03.740 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
-[I 23:33:04.024 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:35:03.904 NotebookApp] 302 GET / (10.249.32.38) 0.54ms
-[I 23:35:04.124 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:37:03.807 NotebookApp] 302 GET / (10.249.32.50) 0.52ms
-[I 23:37:04.026 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:39:03.810 NotebookApp] 302 GET / (10.249.32.38) 0.61ms
-[I 23:39:04.064 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:41:03.847 NotebookApp] 302 GET / (10.249.32.50) 0.63ms
-[I 23:41:04.097 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:43:03.769 NotebookApp] 302 GET / (10.249.32.38) 0.53ms
-[I 23:43:04.057 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:45:03.938 NotebookApp] 302 GET / (10.249.32.38) 0.54ms
-[I 23:45:04.155 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:47:03.876 NotebookApp] 302 GET / (10.249.32.50) 0.61ms
-[I 23:47:04.130 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:49:04.175 NotebookApp] 302 GET / (10.249.32.38) 0.40ms
-[I 23:49:04.396 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:51:03.832 NotebookApp] 302 GET / (10.249.32.50) 0.57ms
-[I 23:51:04.076 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:53:03.900 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
-[I 23:53:04.154 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:55:03.884 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
-[I 23:55:04.101 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:57:03.841 NotebookApp] 302 GET / (10.249.32.50) 0.43ms
-[I 23:57:04.067 NotebookApp] Saving file at /RNN_project.ipynb
-[I 23:59:03.944 NotebookApp] 302 GET / (10.249.32.50) 0.54ms
-[I 23:59:04.189 NotebookApp] Saving file at /RNN_project.ipynb
-[I 00:01:03.936 NotebookApp] 302 GET / (10.249.32.50) 0.76ms
-[I 00:01:04.215 NotebookApp] Saving file at /RNN_project.ipynb
-[I 00:03:04.031 NotebookApp] 302 GET / (10.249.32.50) 0.53ms
-[I 00:03:04.302 NotebookApp] Saving file at /RNN_project.ipynb
-[I 00:05:04.158 NotebookApp] 302 GET / (10.249.32.50) 0.55ms
-[I 00:05:04.403 NotebookApp] Saving file at /RNN_project.ipynb
-[I 00:07:04.078 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
-[I 00:07:04.320 NotebookApp] Saving file at /RNN_project.ipynb
-[I 00:09:04.089 NotebookApp] 302 GET / (10.249.32.50) 0.54ms
-[I 00:09:04.380 NotebookApp] Saving file at /RNN_project.ipynb
-[I 00:11:04.095 NotebookApp] 302 GET / (10.249.32.38) 0.58ms
-[I 00:11:04.345 NotebookApp] Saving file at /RNN_project.ipynb
-[I 00:13:04.047 NotebookApp] 302 GET / (10.249.32.38) 0.52ms
-[I 00:13:04.266 NotebookApp] Saving file at /RNN_project.ipynb
-[I 08:09:05.499 NotebookApp] 302 GET / (10.249.32.50) 0.50ms
-[I 08:09:05.750 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:19:50.856 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
+[I 21:19:51.190 NotebookApp] Saving file at /RNN_project.ipynb
+[W 21:19:51.191 NotebookApp] Notebook RNN_project.ipynb is not trusted
+[I 21:20:04.650 NotebookApp] Starting buffering for f568c6ee-af46-4d01-a2c5-b60e647089fa:6662db752a444b05b8637fe7d10e4cd8
+[I 21:20:04.793 NotebookApp] 302 GET / (10.249.32.38) 0.38ms
+[I 21:20:05.201 NotebookApp] Kernel restarted: f568c6ee-af46-4d01-a2c5-b60e647089fa
+[I 21:20:05.976 NotebookApp] 302 GET / (10.249.32.50) 0.70ms
+[I 21:20:05.985 NotebookApp] Adapting to protocol v5.1 for kernel f568c6ee-af46-4d01-a2c5-b60e647089fa
+[I 21:20:05.986 NotebookApp] Restoring connection for f568c6ee-af46-4d01-a2c5-b60e647089fa:6662db752a444b05b8637fe7d10e4cd8
+[I 21:20:05.986 NotebookApp] Replaying 6 buffered messages
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+[I 21:21:51.250 NotebookApp] 302 GET / (10.249.32.38) 0.63ms
+[I 21:21:51.525 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:23:46.289 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
+[I 21:23:46.968 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:25:45.997 NotebookApp] 302 GET / (10.249.32.38) 0.53ms
+[I 21:25:46.496 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:27:46.177 NotebookApp] 302 GET / (10.249.32.50) 0.53ms
+[I 21:27:46.665 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:29:50.956 NotebookApp] 302 GET / (10.249.32.38) 0.45ms
+[I 21:29:51.243 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:31:46.021 NotebookApp] 302 GET / (10.249.32.38) 0.61ms
+[I 21:31:46.547 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:33:46.500 NotebookApp] 302 GET / (10.249.32.38) 0.57ms
+[I 21:33:46.821 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:35:46.118 NotebookApp] 302 GET / (10.249.32.38) 0.58ms
+[I 21:35:46.606 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:37:46.349 NotebookApp] 302 GET / (10.249.32.50) 0.58ms
+[I 21:37:46.819 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:39:51.004 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
+[I 21:39:51.320 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:41:46.056 NotebookApp] 302 GET / (10.249.32.38) 0.55ms
+[I 21:41:46.591 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:43:51.044 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
+[I 21:43:51.368 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:45:46.124 NotebookApp] 302 GET / (10.249.32.38) 0.59ms
+[I 21:45:46.649 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:47:46.101 NotebookApp] 302 GET / (10.249.32.38) 0.65ms
+[I 21:47:46.538 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:49:46.329 NotebookApp] 302 GET / (10.249.32.38) 0.46ms
+[I 21:49:46.840 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:51:46.127 NotebookApp] 302 GET / (10.249.32.50) 0.59ms
+[I 21:51:46.686 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:53:46.551 NotebookApp] 302 GET / (10.249.32.38) 0.50ms
+[I 21:53:46.908 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:55:46.145 NotebookApp] 302 GET / (10.249.32.38) 0.35ms
+[I 21:55:46.672 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:57:46.001 NotebookApp] 302 GET / (10.249.32.50) 0.54ms
+[I 21:57:46.571 NotebookApp] Saving file at /RNN_project.ipynb
+[I 21:59:46.007 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 21:59:46.484 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:01:46.071 NotebookApp] 302 GET / (10.249.32.50) 0.60ms
+[I 22:01:46.575 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:03:46.402 NotebookApp] 302 GET / (10.249.32.38) 0.61ms
+[I 22:03:46.723 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:05:46.113 NotebookApp] 302 GET / (10.249.32.38) 0.57ms
+[I 22:05:46.605 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:07:46.076 NotebookApp] 302 GET / (10.249.32.38) 0.54ms
+[I 22:07:46.578 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:09:46.090 NotebookApp] 302 GET / (10.249.32.50) 0.58ms
+[I 22:09:46.694 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:11:46.096 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 22:11:46.678 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:13:46.292 NotebookApp] 302 GET / (10.249.32.50) 0.57ms
+[I 22:13:46.851 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:15:46.234 NotebookApp] 302 GET / (10.249.32.38) 0.55ms
+[I 22:15:46.791 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:17:46.178 NotebookApp] 302 GET / (10.249.32.50) 0.60ms
+[I 22:17:46.683 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:19:46.189 NotebookApp] 302 GET / (10.249.32.50) 0.42ms
+[I 22:19:46.723 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:21:46.135 NotebookApp] 302 GET / (10.249.32.38) 0.53ms
+[I 22:21:46.669 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:23:46.276 NotebookApp] 302 GET / (10.249.32.50) 0.53ms
+[I 22:23:46.797 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:25:46.157 NotebookApp] 302 GET / (10.249.32.38) 0.54ms
+[I 22:25:46.644 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:27:46.212 NotebookApp] 302 GET / (10.249.32.50) 0.52ms
+[I 22:27:46.701 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:29:46.316 NotebookApp] 302 GET / (10.249.32.38) 0.52ms
+[I 22:29:46.781 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:31:46.169 NotebookApp] 302 GET / (10.249.32.50) 0.57ms
+[I 22:31:46.621 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:33:46.319 NotebookApp] 302 GET / (10.249.32.50) 0.59ms
+[I 22:33:46.886 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:35:46.317 NotebookApp] 302 GET / (10.249.32.38) 0.53ms
+[I 22:35:46.805 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:37:46.630 NotebookApp] 302 GET / (10.249.32.50) 0.65ms
+[I 22:37:47.109 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:39:46.214 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
+[I 22:39:46.789 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:41:46.356 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 22:41:46.839 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:43:46.513 NotebookApp] 302 GET / (10.249.32.38) 0.62ms
+[I 22:43:46.967 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:45:46.318 NotebookApp] 302 GET / (10.249.32.50) 0.60ms
+[I 22:45:46.839 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:47:46.472 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
+[I 22:47:46.958 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:49:46.274 NotebookApp] 302 GET / (10.249.32.38) 0.57ms
+[I 22:49:46.786 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:51:46.268 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
+[I 22:51:46.771 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:53:46.376 NotebookApp] 302 GET / (10.249.32.50) 0.46ms
+[I 22:53:46.861 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:55:46.525 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 22:55:47.035 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:57:46.611 NotebookApp] 302 GET / (10.249.32.50) 0.41ms
+[I 22:57:47.075 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:59:46.306 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
+[I 22:59:46.817 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:01:46.415 NotebookApp] 302 GET / (10.249.32.38) 0.38ms
+[I 23:01:46.912 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:03:46.544 NotebookApp] 302 GET / (10.249.32.50) 0.57ms
+[I 23:03:47.079 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:05:46.393 NotebookApp] 302 GET / (10.249.32.50) 0.44ms
+[I 23:05:46.894 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:07:46.324 NotebookApp] 302 GET / (10.249.32.50) 0.47ms
+[I 23:07:46.926 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:09:46.478 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
+[I 23:09:47.009 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:11:46.390 NotebookApp] 302 GET / (10.249.32.50) 0.57ms
+[I 23:11:46.957 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:13:46.396 NotebookApp] 302 GET / (10.249.32.38) 0.55ms
+[I 23:13:46.916 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:15:46.537 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 23:15:47.071 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:17:46.673 NotebookApp] 302 GET / (10.249.32.38) 0.53ms
+[I 23:17:47.175 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:19:46.414 NotebookApp] 302 GET / (10.249.32.38) 0.58ms
+[I 23:19:46.881 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:21:46.500 NotebookApp] 302 GET / (10.249.32.38) 0.54ms
+[I 23:21:47.100 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:23:46.472 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
+[I 23:23:46.972 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:25:46.533 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
+[I 23:25:47.032 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:27:46.403 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 23:27:46.867 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:29:46.597 NotebookApp] 302 GET / (10.249.32.38) 0.52ms
+[I 23:29:47.131 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:31:46.575 NotebookApp] 302 GET / (10.249.32.38) 0.52ms
+[I 23:31:47.041 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:33:46.499 NotebookApp] 302 GET / (10.249.32.50) 0.41ms
+[I 23:33:46.997 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:35:46.499 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 23:35:46.966 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:37:46.517 NotebookApp] 302 GET / (10.249.32.38) 0.53ms
+[I 23:37:47.017 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:39:46.606 NotebookApp] 302 GET / (10.249.32.38) 0.99ms
+[I 23:39:47.121 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:41:46.555 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
+[I 23:41:47.054 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:43:46.582 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 23:43:47.194 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:45:46.512 NotebookApp] 302 GET / (10.249.32.50) 0.57ms
+[I 23:45:47.113 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:47:46.657 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
+[I 23:47:47.193 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:49:46.600 NotebookApp] 302 GET / (10.249.32.50) 0.60ms
+[I 23:49:47.170 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:51:46.632 NotebookApp] 302 GET / (10.249.32.38) 0.40ms
+[I 23:51:47.232 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:53:46.579 NotebookApp] 302 GET / (10.249.32.50) 0.55ms
+[I 23:53:47.103 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:55:46.867 NotebookApp] 302 GET / (10.249.32.50) 0.55ms
+[I 23:55:47.437 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:57:46.601 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
+[I 23:57:47.232 NotebookApp] Saving file at /RNN_project.ipynb
+[I 23:59:46.649 NotebookApp] 302 GET / (10.249.32.38) 0.53ms
+[I 23:59:47.171 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:01:46.734 NotebookApp] 302 GET / (10.249.32.38) 0.54ms
+[I 00:01:47.289 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:03:46.668 NotebookApp] 302 GET / (10.249.32.38) 0.40ms
+[I 00:03:47.190 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:05:46.663 NotebookApp] 302 GET / (10.249.32.38) 0.57ms
+[I 00:05:47.153 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:07:46.593 NotebookApp] 302 GET / (10.249.32.38) 0.48ms
+[I 00:07:47.122 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:09:46.682 NotebookApp] 302 GET / (10.249.32.50) 0.53ms
+[I 00:09:47.325 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:11:46.606 NotebookApp] 302 GET / (10.249.32.38) 0.55ms
+[I 00:11:47.107 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:13:46.655 NotebookApp] 302 GET / (10.249.32.50) 0.49ms
+[I 00:13:47.141 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:15:46.710 NotebookApp] 302 GET / (10.249.32.38) 0.41ms
+[I 00:15:47.162 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:17:46.747 NotebookApp] 302 GET / (10.249.32.38) 0.59ms
+[I 00:17:47.262 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:19:46.764 NotebookApp] 302 GET / (10.249.32.38) 0.52ms
+[I 00:19:47.253 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:21:46.689 NotebookApp] 302 GET / (10.249.32.38) 0.61ms
+[I 00:21:47.159 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:23:46.741 NotebookApp] 302 GET / (10.249.32.50) 0.59ms
+[I 00:23:47.229 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:25:46.721 NotebookApp] 302 GET / (10.249.32.50) 0.38ms
+[I 00:25:47.227 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:27:46.774 NotebookApp] 302 GET / (10.249.32.50) 0.61ms
+[I 00:27:47.243 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:29:46.680 NotebookApp] 302 GET / (10.249.32.38) 0.43ms
+[I 00:29:47.236 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:31:46.823 NotebookApp] 302 GET / (10.249.32.38) 0.60ms
+[I 00:31:47.346 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:33:46.753 NotebookApp] 302 GET / (10.249.32.50) 0.40ms
+[I 00:33:47.253 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:35:46.800 NotebookApp] 302 GET / (10.249.32.38) 0.50ms
+[I 00:35:47.327 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:37:46.725 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
+[I 00:37:47.223 NotebookApp] Saving file at /RNN_project.ipynb
+[I 00:39:46.760 NotebookApp] 302 GET / (10.249.32.50) 0.50ms
+[I 00:39:47.224 NotebookApp] Saving file at /RNN_project.ipynb
+[I 07:46:24.007 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 07:46:24.528 NotebookApp] Saving file at /RNN_project.ipynb
+[I 07:46:58.001 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
+[I 07:46:58.008 NotebookApp] Kernel interrupted: f568c6ee-af46-4d01-a2c5-b60e647089fa
+[I 07:47:20.394 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 07:47:20.749 NotebookApp] Saving file at /RNN_project.ipynb
+[I 07:47:33.819 NotebookApp] 302 GET / (10.249.32.50) 0.60ms
+[I 07:47:33.825 NotebookApp] Kernel interrupted: f568c6ee-af46-4d01-a2c5-b60e647089fa
+[I 07:47:43.779 NotebookApp] Saving file at /RNN_project.ipynb
+[I 07:47:44.019 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 07:47:48.772 NotebookApp] Saving file at /RNN_project.ipynb
+[I 07:47:48.938 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
+[I 07:47:49.510 NotebookApp] Saving file at /RNN_project.ipynb
+[I 07:48:11.414 NotebookApp] 302 GET / (10.249.32.38) 0.59ms
+[I 07:48:11.422 NotebookApp] Kernel interrupted: f568c6ee-af46-4d01-a2c5-b60e647089fa
+[I 07:48:17.228 NotebookApp] Kernel interrupted: f568c6ee-af46-4d01-a2c5-b60e647089fa
+[I 07:48:34.814 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
+[I 07:48:35.134 NotebookApp] Saving file at /RNN_project.ipynb
+[I 07:48:49.962 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
+[I 07:48:49.967 NotebookApp] Kernel interrupted: f568c6ee-af46-4d01-a2c5-b60e647089fa
+[I 07:48:56.516 NotebookApp] Saving file at /RNN_project.ipynb
+[I 07:49:48.665 NotebookApp] 302 GET / (10.249.32.38) 0.61ms
+[I 07:49:48.989 NotebookApp] Saving file at /RNN_project.ipynb
+[I 07:51:49.193 NotebookApp] 302 GET / (10.249.32.38) 0.58ms
+[I 07:51:49.800 NotebookApp] Saving file at /RNN_project.ipynb
+[I 07:53:49.148 NotebookApp] 302 GET / (10.249.32.50) 0.58ms
+[I 07:53:49.638 NotebookApp] Saving file at /RNN_project.ipynb
+[I 07:55:49.226 NotebookApp] 302 GET / (10.249.32.38) 0.45ms
+[I 07:55:49.721 NotebookApp] Saving file at /RNN_project.ipynb
+[I 07:57:49.246 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
+[I 07:57:49.759 NotebookApp] Saving file at /RNN_project.ipynb
+[I 07:59:49.200 NotebookApp] 302 GET / (10.249.32.50) 0.54ms
+[I 07:59:49.806 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:01:49.343 NotebookApp] 302 GET / (10.249.32.38) 0.35ms
+[I 08:01:49.909 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:03:49.324 NotebookApp] 302 GET / (10.249.32.38) 0.63ms
+[I 08:03:49.817 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:05:49.304 NotebookApp] 302 GET / (10.249.32.50) 0.54ms
+[I 08:05:49.915 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:07:49.246 NotebookApp] 302 GET / (10.249.32.50) 0.58ms
+[I 08:07:49.795 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:09:49.176 NotebookApp] 302 GET / (10.249.32.38) 0.46ms
+[I 08:09:49.750 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:11:49.246 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
+[I 08:11:49.759 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:13:49.278 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
+[I 08:13:49.817 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:15:49.167 NotebookApp] 302 GET / (10.249.32.50) 0.61ms
+[I 08:15:49.737 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:17:49.298 NotebookApp] 302 GET / (10.249.32.38) 0.58ms
+[I 08:17:49.829 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:19:49.201 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
+[I 08:19:49.707 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:21:49.215 NotebookApp] 302 GET / (10.249.32.50) 0.59ms
+[I 08:21:49.682 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:23:49.353 NotebookApp] 302 GET / (10.249.32.38) 0.53ms
+[I 08:23:49.927 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:25:49.287 NotebookApp] 302 GET / (10.249.32.38) 0.58ms
+[I 08:25:49.727 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:27:49.256 NotebookApp] 302 GET / (10.249.32.38) 0.40ms
+[I 08:27:49.796 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:29:49.464 NotebookApp] 302 GET / (10.249.32.50) 0.53ms
+[I 08:29:49.965 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:31:49.452 NotebookApp] 302 GET / (10.249.32.38) 0.55ms
+[I 08:31:50.030 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:33:49.314 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
+[I 08:33:49.912 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:35:49.339 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
+[I 08:35:49.924 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:37:49.654 NotebookApp] 302 GET / (10.249.32.50) 0.41ms
+[I 08:37:50.203 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:39:49.385 NotebookApp] 302 GET / (10.249.32.38) 0.55ms
+[I 08:39:49.894 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:41:49.387 NotebookApp] 302 GET / (10.249.32.38) 0.54ms
+[I 08:41:49.983 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:43:49.348 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
+[I 08:43:49.918 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:45:49.360 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
+[I 08:45:49.897 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:47:49.382 NotebookApp] 302 GET / (10.249.32.50) 0.55ms
+[I 08:47:49.945 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:49:49.488 NotebookApp] 302 GET / (10.249.32.50) 0.58ms
+[I 08:49:49.954 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:51:49.522 NotebookApp] 302 GET / (10.249.32.38) 0.53ms
+[I 08:51:50.086 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:53:49.400 NotebookApp] 302 GET / (10.249.32.38) 0.57ms
+[I 08:53:49.960 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:55:49.403 NotebookApp] 302 GET / (10.249.32.38) 0.58ms
+[I 08:55:49.876 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:57:49.440 NotebookApp] 302 GET / (10.249.32.38) 0.46ms
+[I 08:57:49.970 NotebookApp] Saving file at /RNN_project.ipynb
+[I 08:59:49.530 NotebookApp] 302 GET / (10.249.32.38) 0.58ms
+[I 08:59:50.078 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:01:49.470 NotebookApp] 302 GET / (10.249.32.38) 0.59ms
+[I 09:01:49.998 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:03:49.473 NotebookApp] 302 GET / (10.249.32.50) 0.42ms
+[I 09:03:50.080 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:05:49.562 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 09:05:50.171 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:07:49.464 NotebookApp] 302 GET / (10.249.32.50) 0.48ms
+[I 09:07:50.065 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:09:49.315 NotebookApp] 302 GET / (10.249.32.38) 0.48ms
+[I 09:09:49.909 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:11:49.225 NotebookApp] 302 GET / (10.249.32.50) 0.58ms
+[I 09:11:49.802 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:13:49.158 NotebookApp] 302 GET / (10.249.32.38) 0.55ms
+[I 09:13:49.739 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:15:49.159 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
+[I 09:15:49.795 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:17:49.200 NotebookApp] 302 GET / (10.249.32.38) 0.54ms
+[I 09:17:49.727 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:19:49.243 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 09:19:49.747 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:21:49.273 NotebookApp] 302 GET / (10.249.32.38) 0.39ms
+[I 09:21:49.829 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:23:49.262 NotebookApp] 302 GET / (10.249.32.50) 0.58ms
+[I 09:23:49.864 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:25:49.285 NotebookApp] 302 GET / (10.249.32.50) 0.72ms
+[I 09:25:49.820 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:27:49.269 NotebookApp] 302 GET / (10.249.32.50) 0.61ms
+[I 09:27:49.826 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:29:49.340 NotebookApp] 302 GET / (10.249.32.50) 0.77ms
+[I 09:29:49.820 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:31:49.301 NotebookApp] 302 GET / (10.249.32.38) 0.59ms
+[I 09:31:49.843 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:33:49.381 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 09:33:49.884 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:35:49.285 NotebookApp] 302 GET / (10.249.32.38) 0.45ms
+[I 09:35:49.823 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:37:49.446 NotebookApp] 302 GET / (10.249.32.38) 0.40ms
+[I 09:37:49.975 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:39:49.490 NotebookApp] 302 GET / (10.249.32.38) 0.57ms
+[I 09:39:50.016 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:41:49.302 NotebookApp] 302 GET / (10.249.32.50) 0.41ms
+[I 09:41:49.883 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:43:49.305 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
+[I 09:43:49.944 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:45:49.783 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
+[I 09:45:50.293 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:47:49.380 NotebookApp] 302 GET / (10.249.32.50) 0.53ms
+[I 09:47:49.930 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:49:49.326 NotebookApp] 302 GET / (10.249.32.50) 0.49ms
+[I 09:49:49.844 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:51:49.397 NotebookApp] 302 GET / (10.249.32.38) 0.60ms
+[I 09:51:49.879 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:53:49.352 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
+[I 09:53:49.869 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:55:49.661 NotebookApp] 302 GET / (10.249.32.50) 0.50ms
+[I 09:55:50.151 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:57:49.750 NotebookApp] 302 GET / (10.249.32.38) 0.71ms
+[I 09:57:50.273 NotebookApp] Saving file at /RNN_project.ipynb
+[I 09:59:57.062 NotebookApp] 302 GET / (10.249.32.38) 0.60ms
+[I 09:59:58.034 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:01:49.749 NotebookApp] 302 GET / (10.249.32.50) 0.59ms
+[I 10:01:50.281 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:03:49.738 NotebookApp] 302 GET / (10.249.32.38) 0.57ms
+[I 10:03:50.271 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:05:49.788 NotebookApp] 302 GET / (10.249.32.38) 0.55ms
+[I 10:05:50.326 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:07:49.898 NotebookApp] 302 GET / (10.249.32.50) 0.57ms
+[I 10:07:50.413 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:09:49.777 NotebookApp] 302 GET / (10.249.32.38) 0.57ms
+[I 10:09:50.332 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:11:49.771 NotebookApp] 302 GET / (10.249.32.50) 0.55ms
+[I 10:11:50.433 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:13:49.767 NotebookApp] 302 GET / (10.249.32.50) 0.39ms
+[I 10:13:50.351 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:15:49.790 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
+[I 10:15:50.278 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:17:07.663 NotebookApp] 302 GET / (10.249.32.38) 0.53ms
+[I 10:17:08.270 NotebookApp] 302 GET / (10.249.32.50) 0.38ms
+[I 10:17:08.275 NotebookApp] 302 GET / (10.249.32.50) 0.31ms
+[I 10:17:49.659 NotebookApp] 302 GET / (10.249.32.50) 0.56ms
+[I 10:17:49.968 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:19:49.845 NotebookApp] 302 GET / (10.249.32.38) 0.48ms
+[I 10:19:50.356 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:21:49.788 NotebookApp] 302 GET / (10.249.32.50) 0.54ms
+[I 10:21:50.324 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:23:49.843 NotebookApp] 302 GET / (10.249.32.38) 0.56ms
+[I 10:23:50.378 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:25:49.803 NotebookApp] 302 GET / (10.249.32.38) 0.38ms
+[I 10:25:50.321 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:27:49.913 NotebookApp] 302 GET / (10.249.32.50) 0.61ms
+[I 10:27:50.532 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:29:49.609 NotebookApp] 302 GET / (10.249.32.50) 0.60ms
+[I 10:29:50.184 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:31:49.672 NotebookApp] 302 GET / (10.249.32.50) 0.58ms
+[I 10:31:50.327 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:33:49.577 NotebookApp] 302 GET / (10.249.32.50) 0.60ms
+[I 10:33:50.123 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:35:49.596 NotebookApp] 302 GET / (10.249.32.38) 0.54ms
+[I 10:35:50.134 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:37:49.578 NotebookApp] 302 GET / (10.249.32.38) 0.64ms
+[I 10:37:50.112 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:39:49.745 NotebookApp] 302 GET / (10.249.32.50) 0.38ms
+[I 10:39:50.320 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:41:49.654 NotebookApp] 302 GET / (10.249.32.50) 0.60ms
+[I 10:41:50.186 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:43:49.618 NotebookApp] 302 GET / (10.249.32.50) 0.54ms
+[I 10:43:50.201 NotebookApp] Saving file at /RNN_project.ipynb
+[I 10:45:49.608 NotebookApp] 302 GET / (10.249.32.50) 0.50ms
+[I 10:45:50.166 NotebookApp] Saving file at /RNN_project.ipynb
